@@ -1,108 +1,132 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
 /* font-family: 'Open Sans', sans-serif; */
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 /* font-family: 'Montserrat', sans-serif; */
-header{
+header {
     background: url("../images/bg.png");
     background-size: cover;
     padding-top: 50px;
 
 }
-p{
+
+p {
     font-family: 'Open Sans', sans-serif;
     color: #60606e;
 }
-ul{
+
+ul {
     margin: 0;
 }
-ul li{
+
+ul li {
     list-style-type: none;
 }
-a:hover{
+
+a:hover {
     text-decoration: none;
 }
-.menu span{
+
+.menu span {
     border-top: 1px solid #60606e;
 }
+
 .navbar {
     min-height: auto;
-    margin-bottom:168px ;
+    margin-bottom: 168px;
 }
-.navbar-brand,.navbar-collapse .navbar-nav>li>a{
+
+.navbar-brand, .navbar-collapse .navbar-nav > li > a {
     padding: 0;
 }
+
 .navbar-toggle {
     margin: 0;
     padding: 0;
     border: none;
 }
-.navbar-brand{
+
+.navbar-brand {
     height: auto;
 }
-.navbar-default .navbar-toggle .icon-bar{
+
+.navbar-default .navbar-toggle .icon-bar {
     background: #60606e;
     margin-bottom: 6px;
 }
-.navbar-default{
+
+.navbar-default {
     border: none;
     background: none;
 }
-.navbar-default .navbar-toggle span.f{
+
+.navbar-default .navbar-toggle span.f {
     width: 31px;
 }
-.navbar-default .navbar-toggle span.f{
-   width: 15px;
+
+.navbar-default .navbar-toggle span.f {
+    width: 15px;
 }
-.navbar-default .navbar-toggle span.f{
+
+.navbar-default .navbar-toggle span.f {
     width: 23px;
 }
 
-.title h1 , .title span {
+.title h1, .title span {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    font-weight:700 ;
+    font-weight: 700;
     color: #60606e;
 }
-.title span{
+
+.title span {
     display: inline;
     background: #7beec7;
     padding: 6px 20px 2px;
     font-size: 18px;
 }
-.title h1{
-    margin:0px 0px 23px 0px;
-    padding:15px 0px ;
+
+.title h1 {
+    margin: 0px 0px 23px 0px;
+    padding: 15px 0px;
     font-size: 48px;
     border: 10px solid #60606e;
 }
-.title p{
-    font:16px 'Open Sans', sans-serif;
+
+.title p {
+    font: 16px 'Open Sans', sans-serif;
     margin: 0;
     color: #60606e;
     line-height: 1.5em;
 }
-.title{
+
+.title {
     margin-bottom: 125px;
 }
-.img-position{
+
+.img-position {
     position: absolute;
 
 }
-.head-info h3{
+
+.head-info h3 {
     margin: 20px 0 13px 0;
 }
-h3{
+
+h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
-    font-weight:700 ;
+    font-weight: 700;
     text-transform: uppercase;
     margin: 0;
 }
- h3 span{
+
+h3 span {
     z-index: 2;
     position: relative;
 }
- h3 span:before{
+
+h3 span:before {
     content: "";
     display: block;
     left: 0;
@@ -113,12 +137,14 @@ h3{
     width: 100%;
     height: 20px;
 }
+
 header .head-info p {
     font: 16px 'Open Sans', sans-serif;
     color: #60606e;
     line-height: 1.9em;
     margin-bottom: 47px;
 }
+
 .more-info {
     position: absolute;
     bottom: -20px;
@@ -134,121 +160,146 @@ header .head-info p {
     padding: 250px 0px 150px 0px;
 
 }
-.choose-us p{
+
+.choose-us p {
     margin: 20px 0px 100px 0px;
     font-size: 14px;
     line-height: 1.7em;
 }
-.choose-us h4{
-    font:700 18px 'Montserrat', sans-serif;
+
+.choose-us h4 {
+    font: 700 18px 'Montserrat', sans-serif;
     margin: 0px 0px 21px 0px;
     text-transform: uppercase;
 
 }
-.choose-us .choose-us-info img{
+
+.choose-us .choose-us-info img {
     margin: 15px 0px;
 }
-.choose-us .choose-us-info ul{
+
+.choose-us .choose-us-info ul {
     margin-bottom: 40px;
 }
-.choose-us .choose-us-info ul li{
+
+.choose-us .choose-us-info ul li {
     margin: 0px 0px 10px 0px;
 }
-.choose-us .choose-us-info ul li a{
+
+.choose-us .choose-us-info ul li a {
     text-transform: uppercase;
     font: 14px 'Open Sans', sans-serif;
     color: #999;
 }
-.choose-us-info .col-lg-6{
+
+.choose-us-info .col-lg-6 {
     padding: 0;
 }
+
 .choose-us-info {
     padding-right: 0;
 }
-.choose-us .for-left-choose{
+
+.choose-us .for-left-choose {
     padding-left: 42px;
 }
+
 /********************* section class="portfolio "********************/
-.portfolio{
+.portfolio {
     padding-bottom: 150px;
 }
-.photo-cart .col-lg-4 img{
+
+.photo-cart .col-lg-4 img {
     margin-bottom: 30px;
 }
-.dop-title{
+
+.dop-title {
     font-size: 14px;
     line-height: 1.7em;
     margin: 20px 0px 95px 0px;
 }
-.sidebar h2{
-    font:700 30px 'Montserrat', sans-serif;
+
+.sidebar h2 {
+    font: 700 30px 'Montserrat', sans-serif;
     line-height: 1.5em;
     margin: 0px 0px 43px 0px;
 }
-.sidebar>a{
-    font:700 14px 'Montserrat', sans-serif;
+
+.sidebar > a {
+    font: 700 14px 'Montserrat', sans-serif;
     padding: 2px 20px;
     margin: 0;
     color: #ffffff;
     background: #7beec7;
 }
-.sidebar ul{
+
+.sidebar ul {
     margin: 30px 0px 0px 20px;
 
 }
-.sidebar ul li{
+
+.sidebar ul li {
     margin-bottom: 30px;
 }
-.sidebar ul li a{
+
+.sidebar ul li a {
     text-transform: uppercase;
     color: #60606e;
-    font:700 14px 'Montserrat', sans-serif;
+    font: 700 14px 'Montserrat', sans-serif;
 }
 
 /************************    <section class="to-work">       ******************************/
-.to-work{
+.to-work {
     background: #7beec7;
     padding: 50px 0px;
 }
-.to-work h2{
-    font:700 30px 'Montserrat', sans-serif;
+
+.to-work h2 {
+    font: 700 30px 'Montserrat', sans-serif;
     color: #ffffff;
     line-height: 1.7em;
     margin-bottom: 30px;
     margin-top: -15px;
 
 }
-.to-work a{
+
+.to-work a {
     text-transform: uppercase;
     background: #ffffff;
     color: #7beec7;
     padding: 16px 30px;
-    font:700 14px 'Montserrat', sans-serif;
+    font: 700 14px 'Montserrat', sans-serif;
 }
-.to-work .your-email{
+
+.to-work .your-email {
     background: #ffffff;
     padding: 12px 26px 5px 26px;
 }
-.to-work .your-email h3{
+
+.to-work .your-email h3 {
     font-size: 24px;
     line-height: 1.5em;
     margin-bottom: 5px;
 }
-.to-work .your-email p{
+
+.to-work .your-email p {
     font: 16px 'Open Sans', sans-serif;
     color: #999;
     margin-bottom: 30px;
 }
-.to-work .your-email form{
+
+.to-work .your-email form {
     margin: 0;
 }
-.to-work .your-email form #email{
+
+.to-work .your-email form #email {
     width: 75%;
     height: 50px;
     border: 1px solid #e5e5e5;
-    padding-left:20px ;
+    padding-left: 20px;
 }
-.to-work .your-email form #send{
+
+.to-work .your-email form #send {
     float: right;
     width: 25%;
     height: 50px;
@@ -257,7 +308,74 @@ header .head-info p {
     color: #fff;
 }
 
-.to-work .your-email form #email::-webkit-input-placeholder {color:#d0d0d0; font:700 12px 'Montserrat', sans-serif; text-transform: uppercase}
-.to-work .your-email form #email::-moz-placeholder          {color:#d0d0d0; font:700 12px 'Montserrat', sans-serif; text-transform: uppercase}/* Firefox 19+ */
-.to-work .your-email form #email:-moz-placeholder           {color:#d0d0d0; font:700 12px 'Montserrat', sans-serif; text-transform: uppercase}/* Firefox 18- */
-.to-work .your-email form #email:-ms-input-placeholder      {color:#d0d0d0; font:700 12px 'Montserrat', sans-serif; text-transform: uppercase}
+.to-work .your-email form #email::-webkit-input-placeholder {
+    color: #d0d0d0;
+    font: 700 12px 'Montserrat', sans-serif;
+    text-transform: uppercase
+}
+
+.to-work .your-email form #email::-moz-placeholder {
+    color: #d0d0d0;
+    font: 700 12px 'Montserrat', sans-serif;
+    text-transform: uppercase
+}
+
+/* Firefox 19+ */
+.to-work .your-email form #email:-moz-placeholder {
+    color: #d0d0d0;
+    font: 700 12px 'Montserrat', sans-serif;
+    text-transform: uppercase
+}
+
+/* Firefox 18- */
+.to-work .your-email form #email:-ms-input-placeholder {
+    color: #d0d0d0;
+    font: 700 12px 'Montserrat', sans-serif;
+    text-transform: uppercase
+}
+
+/************************************   FOOTER          *********************************************/
+footer {
+    padding: 50px 0px;
+    color: #9a9a9a;
+}
+
+footer .foot-menu {
+    margin: 0;
+    padding: 0;
+}
+
+footer .foot-menu li:not(:last-child):after {
+    content: '-';
+    padding: 0px 18px;
+}
+
+footer .foot-menu li {
+    margin: 0;
+    padding: 0;
+}
+
+footer .foot-menu li a {
+    color: #9a9a9a;
+    font: 14px 'Open Sans', sans-serif;
+}
+footer h3{
+    font: 14px 'Open Sans', sans-serif;
+
+}
+footer .social{
+    margin-top: 30px;
+}
+footer .social li a{
+    color: #989898;
+    font-size: 18px;
+}
+
+footer .social li{
+    padding: 0;
+    margin:  0px 0px 0px 18px;
+}
+
+
+
+
